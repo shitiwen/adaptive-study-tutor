@@ -1,0 +1,14 @@
+interface:
+  display_name: Adaptive Study Tutor｜大学课程导师
+  short_description: 自动在备课、互动讲课和严格掌握检验之间切换的大学课程导师
+  default_prompt: Use $adaptive-study-tutor to prepare or teach my next university
+    lesson adaptively.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
